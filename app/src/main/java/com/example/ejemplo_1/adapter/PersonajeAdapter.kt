@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.ejemplo_1.databinding.ItemPersonajeBinding
 import com.example.ejemplo_1.model.Personaje
-import retrofit2.http.GET
 
 class PersonajeAdapter(private var listPersonaje: List<Personaje>) : RecyclerView.Adapter<PersonajeAdapter.ViewHolder>(){
 
